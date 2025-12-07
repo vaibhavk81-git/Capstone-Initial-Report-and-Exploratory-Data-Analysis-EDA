@@ -180,10 +180,10 @@ Key findings show that **sentence-embedding similarity** (MiniLM) and **pronoun 
 
 ## Notebooks
 
-- `notebooks/01_eda_and_baseline.ipynb`  
+- [notebooks/01_eda_and_baseline.ipynb](notebooks/01_eda_and_baseline.ipynb)
   Main analysis notebook for this submission. Covers data loading, cleaning, feature engineering, EDA plots, and training/evaluating the two-stage baseline models.
 
-- `notebooks/02_demo_adaptive_context.ipynb`  
+- [notebooks/02_demo_adaptive_context.ipynb](notebooks/02_demo_adaptive_context.ipynb)  
   Lightweight demo notebook that loads the trained models from `outputs/models/` and shows how the system selects context turns and how many tokens it saves on a few representative conversations.
 
 ---
