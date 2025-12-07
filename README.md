@@ -116,13 +116,13 @@ Key findings show that **sentence-embedding similarity** (MiniLM) and **pronoun 
 
 ### Stage 1: Context Needed Classifier
 
-| Metric | Value |
-|--------|-------|
-| Test Accuracy | 97.97% |
-| Test Precision | 99.76% |
-| Test Recall | 97.12% |
+| Metric            | Value      |
+|-------------------|------------|
+| Test Accuracy     | 97.97%     |
+| Test Precision    | 99.76%     |
+| Test Recall       | 97.12%     |
 | **Test F1 Score** | **98.42%** |
-| Test ROC-AUC | 99.85% |
+| Test ROC-AUC      | 99.85%     |
 
 **Top Predictive Features:**
 1. Embedding Similarity (largest positive coefficient)
@@ -131,12 +131,12 @@ Key findings show that **sentence-embedding similarity** (MiniLM) and **pronoun 
 
 ### Stage 2: Context Turn Selector
 
-| Metric | Value |
-|--------|-------|
-| Test RMSE | 0.0208 |
-| Test MAE | 0.0057 |
-| Test R² | 0.9828 |
-| **Selection F1** | **97.38%** |
+| Metric            | Value      |
+|-------------------|------------|
+| Test RMSE         | 0.0208     |
+| Test MAE          | 0.0138     |
+| Test R²           | 0.9828     |
+| **Selection F1**  | **97.38%** |
 
 **Top Predictive Features:**
 1. Embedding Similarity
